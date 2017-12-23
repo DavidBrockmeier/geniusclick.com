@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-request.open("GET", "https://jenil.github.io/bulmaswatch/api/themes.json", true);
+request.open("GET", "http://geniusclick.com/api/themes.json", true);
 request.onreadystatechange = function() {
   var done = 4,
     ok = 200;
