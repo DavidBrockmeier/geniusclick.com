@@ -17,7 +17,7 @@ route: home
 <section class="section themes">
   <div class="container content">
     <div class="columns is-multiline">
-      {% assign themes = (site.themes | sort: 'order') %}
+      {% assign themes = site.themes | sort: 'order' %}
       {% for theme in themes %}
       <div class="column is-half-tablet is-one-third-desktop">
         <div class="box has-text-centered">
