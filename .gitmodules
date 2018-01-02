@@ -1,0 +1,3 @@
+[submodule "bs4"]
+	path = bs4
+	url = https://github.com/DavidBrockmeier/bs4
